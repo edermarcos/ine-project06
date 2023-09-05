@@ -43,8 +43,6 @@ export class AppComponent implements OnInit, OnDestroy {
           ...this.entities,
           ...data,
         ];
-
-        console.log(this.entities);
       });
   }
 
